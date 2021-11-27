@@ -109,7 +109,7 @@ void loop() {
     Serial.println("--------------------"); 
 
     
-  ClientRequest(String("Songshan"), String(PM), String(sta));  //Client傳送資料
+  ClientRequest(String("%e6%9d%be%e5%b1%b1%0d%0a"), String(PM), String(sta));  //Client傳送資料
   
   delay(3000);
 }  
